@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: minmax(70px, auto)repeat(6, 70px);
+    grid-gap: 3px 3px;
+}
+
+.d18 {
+    grid-area: 1/1/1/5;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.d17 {
+    grid-area: 2/1/2/4;
+}
+
+.d10 {
+    grid-area: 6/1/7/3;
+}
+
+button {
+    background-color: #ADD8E6;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: #a8cad5;
+}
